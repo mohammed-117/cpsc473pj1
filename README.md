@@ -1,2 +1,2 @@
-# cpsc472pj1
+# cpsc473pj1
 Project 1: food argument
