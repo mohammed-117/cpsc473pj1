@@ -1,18 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="utf-8">
   <title>Food Wars</title>
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
-  <!-- TODO Insert main stylesheet here
-  <link rel="stylesheet" href="some awesome stylesheets.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <!-- TODO Add main stylesheet here
+  <link rel="stylesheet" href="some awesome stylesheets.css">
   -->
 </head>
 
 <body>
+  <header class="main-header">
+    <h1>Food Wars</h1>
+  </header>
+  <main class="main-content">
 
+    <!-- Html for the central large food image -->
+    <div class="detail-image-container">
+      <!-- Javascript button to change detail image to previous food picture -->
+      <!-- TODO connect data-previous-button to a javascript function -->
+      <a href="#" class="previous round" data-previous-button="trigger">&#8249;</a>
+      <div class="detail-image-frame">
+        <!-- TODO Find some food images -->
+        <img class="detail-image" src="image" alt="">
+      </div>
+      <!-- Javascript button to change detail image to previous food picture -->
+      <!-- TODO connect data-next-button to a javascript function -->
+      <a href="#" class="next round" data-next-button="trigger">&#8250;</a>
+    </div>
+
+    <section>
+      <!-- Adding comments implemented as a form -->
+      <div class="comments-section">
+        <form add-comment="form">
+          <!-- Comments goes here -->
+        </form>
+      </div>
+    </section>
+  </main>
+  <!-- TODO Add javascript files here
+  <script src="scripts/main.js" charset="utf-8"></script>
+  -->
 </body>
 
 </html>
