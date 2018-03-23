@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>Food Wars</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <!-- Bootstrap css href -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- TODO Add main stylesheet here
   <link rel="stylesheet" href="some awesome stylesheets.css">
   -->
@@ -51,9 +53,19 @@
     <section>
       <!-- Adding comments implemented as a form -->
       <div class="comments-section">
-        <form add-comment="form">
-          <!-- Comments goes here -->
-        </form>
+        <!-- These div tags are for working with boot strap to stylesheet
+        the comment form -->
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <form add-comment-form="form">
+              <div class="form-group">
+                <label for="addComment">Add Comment</label>
+                <input class="form-control" name="comment" id="addComment" autofocus placeholder="Time to ragepost!">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
   </main>
