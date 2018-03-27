@@ -20,10 +20,10 @@
   <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png" data-image-role="trigger">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" data-image-role="trigger">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png" data-image-role="trigger">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" data-image-role="trigger">
   <link rel="manifest" href="/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
@@ -40,14 +40,14 @@
     <div class="detail-image-container">
       <!-- Javascript button to change detail image to previous food picture -->
       <!-- TODO connect data-previous-button to a javascript function -->
-      <a href="#" class="previous round" data-previous-button="trigger">&#8249;</a>
+      <a href="#" class="previous round" data-previous-button="trigger" onclick="previous()">&#8249;</a>
       <div class="detail-image-frame">
         <!-- TODO Find some food images -->
-        <img class="detail-image" src="img/Spaghetti.jpg" alt="">
+        <img class="detail-image" src="img/Spaghetti.jpg" alt="" data-image-role="displayImage">
       </div>
       <!-- Javascript button to change detail image to previous food picture -->
       <!-- TODO connect data-next-button to a javascript function -->
-      <a href="#" class="next round" data-next-button="trigger">&#8250;</a>
+      <a href="#" class="next round" data-next-button="trigger" onclick="next()>&#8250;</a>
     </div>
 
     <section>
