@@ -1,4 +1,4 @@
-# cpsc473pj1
+# 473 Front-End Web Development Project 1
 Project 1: Food Argument
 Section: 02
 Team Members/GitHub Name:
